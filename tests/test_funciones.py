@@ -1,7 +1,7 @@
 from src.funciones import maxima_nota
 
 def test_maxima_normal():
-    notas = [3, 4.5, 2, 5]
+    notas = [3, 4.5, 2, 5, 1]
     assert maxima_nota(notas) == 5
 
 def test_maxima_vacio():
